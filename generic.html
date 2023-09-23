@@ -57,27 +57,43 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#", id="contactForm">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+								<h3>Contact us</h3>
+								<p></p>
+
+								<form method="post" action="#">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name*" />
 										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="Contact number" />
 										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+										<!-- Break -->
+										<div class="col-12">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Category -</option>
+												<option value="1">Translation</option>
+												<option value="1">Proofreading</option>
+												<option value="1">Post-editing</option>
+												<option value="1">QA</option>
+												<option value="1">Other</option>
+											</select>
+										</div>
+										<!-- Break -->
+										<div class="col-12">
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<!-- Break -->
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
 										</div>
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
 								</form>
 							</section>
+
 							<section class="split">
 								<section>
 									<div class="contact-method">
@@ -112,11 +128,11 @@
 							<ul class="icons">
 								<li><a href="https://twitter.com/SinonimiaGlobal" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.instagram.com/sinonimiaglobal/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="https://www.linkedin.com/company/sinonimia/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Sinonimia</li>
+								<li>Sinonimia &copy; 2023</li>
 							</ul>
 						</div>
 					</footer>
@@ -138,7 +154,7 @@
 						var name = $('#name').val();
 						var email = $('#email').val();
 						var message = $('#message').val();
-						var mailtoLink = `mailto:your-email@example.com?subject=Message from ${name}&body=${message}`;
+						var mailtoLink = `mailto:ec.balkwill@gmail.com?subject=Message from ${name}&body=${message}`;
 						window.location.href = mailtoLink;
 					});
 				});
