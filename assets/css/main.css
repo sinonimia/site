@@ -2135,7 +2135,7 @@ input, select, textarea {
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #551f74;
+			color: #804aa0;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2826,19 +2826,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #bf74dd;
+				background-color: #9057a780;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #8d82c4a2;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #ec8d819a;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #7c562fb4;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
